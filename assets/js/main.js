@@ -43,8 +43,8 @@ function displayData(){
                  <td>${courses[i].price}</td>
                  <td>${courses[i].desc}</td>
                  <td>
-                    <button onclick="getCourseData(${i})" class="btn btn-outline-info">update</button>
-                    <button onclick="deleteCourse(${i})" class="btn btn-outline-danger">delete</button>
+                    <button onclick="getCourseData(${i})" class="btn btn-info">update</button>
+                    <button onclick="deleteCourse(${i})" class="btn btn-danger">delete</button>
                  </td>
                 </tr> `;
     }
